@@ -13,8 +13,9 @@ public class CardManagerPrimaryGame extends CardManager {
         addToCardDistributionList(new AwardedCard(3), 5);
         addToCardDistributionList(new ThreeTimesWinCard(), 1);
         addToCardDistributionList(new ResettingCard(), 7);
-        addToCardDistributionList(new AdditionalLifeCard(),3);
-        addToCardDistributionList(new EndPrimaryGameCard(),4);
+        addToCardDistributionList(new AdditionalLifeCard(), 3);
+        addToCardDistributionList(new EndPrimaryGameCard(), 4);
+        addToCardDistributionList(new ExtraCard(), 2);
 
         return cardDistributionList;
 
